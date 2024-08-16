@@ -1,0 +1,298 @@
+
+.a{
+    height: 15vh;
+    width: 90%;
+    border: 1px solid white;
+    position: relative;
+    left: 50px;
+
+}
+.a1{
+    font-size: 8vh;
+    color: black;
+    text-align: center;
+    position: relative;
+    transition-duration: 2s;
+
+}
+.a1:hover{
+    transform: translate(40px);
+}
+
+
+
+.b{
+    height: 10vh;
+    width: 60%;
+    border: 1px solid white;
+    position: relative;
+    left: 280px;
+    top: 20px;
+}
+.b>li{
+    list-style: none;
+    float: left;
+    color: blue;
+    margin-left: 30px;
+    font-size: 21px;
+    transition-duration: 2s;
+}
+.b1:hover{
+    transform: scale(1.3);
+}
+.c{
+    height: 40vh;
+    width: 30%;
+    position: relative;
+    left: 90px;
+    top: 100px;
+    float: left;
+    overflow: hidden;
+}
+.c div{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Transsition/download.jpg);
+    background-size: 100% 100%;
+    transition: 1s;
+}
+.c:hover div{
+    transform: scale(1.4);
+}
+
+
+.d{
+    height: 40vh;
+    width: 48%;
+    float: right;
+    position: relative;
+    right: 40px;
+    border: 1px solid white;
+    top: 100px;
+    transition-duration: 2s;
+}
+.d h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.d p{
+    margin-top: -13px;
+}
+.d button{
+    height: 6vh;
+    width: 13%;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: -15px;
+    color: white;
+}
+.d:hover{
+    transform: skew(20deg);
+}
+.d:hover>button{
+    background-color: black;
+}
+.e{
+    height: 10vh;
+    width: 50%;
+    position: relative;
+    top: 450px;
+    left: 180px;
+}
+.e1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+
+.f{
+   height: 37vh;
+   width: 100%;
+   position: relative;
+   top: 520px
+}
+.f1{
+    height: 35vh;
+    width: 17%;
+    position: relative;
+    border: 1px solid black;
+    left: -300px;
+    background-image: url(./Transsition/im1.jpg);
+    top: 10px;
+    transform: skew(-13deg);
+    transition-duration: 2s;
+    box-shadow: 5px -10px 10px 7px rgba(0, 0, 0, 0.571);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    float: left;
+}
+.f1:hover{
+    transform: skew(0deg);
+    box-shadow: 5px -10px 10px 7px red;
+}
+.f2{
+    height: 35vh;
+    width: 17%;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    top: -160px;
+    left: -220px;
+    background-image: url(./Transsition/im2.jpg);
+    background-size: 100% 100%;
+    transform: skewY(-10deg);
+    border-radius: 20px;
+    box-shadow: 5px -10px 10px 7px rgba(0, 0, 0, 0.571);
+    transition-duration: 2s;
+}
+.f2:hover{
+    transform: skewY(0deg);
+    box-shadow: 5px -10px 10px 7px red;
+}
+
+
+.f3{
+    height: 35vh;
+    width: 17%;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    top: -160px;
+    left: -140px;
+    background-image: url(./Transsition/im3.jpg);
+    background-size: 100% 100%;
+    transform: rotate(20deg);
+    border-radius: 20px;
+    box-shadow: 5px -10px 10px 7px rgba(0, 0, 0, 0.571);
+    transition-duration: 2s;
+}
+.f3:hover{
+    transform: rotate(0deg);
+    box-shadow: 5px -10px 10px 7px red;
+}
+
+
+.f4{
+    height: 35vh;
+    width: 17%;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    top: -160px;
+    left: -40px;
+    background-image: url(./Transsition/im4.jpg);
+    background-size: 100% 100%;
+    transform: rotate(-20deg);
+    border-radius: 20px;
+    box-shadow: 5px -10px 10px 7px rgba(0, 0, 0, 0.571);
+    transition-duration: 2s;
+}
+.f4:hover{
+    transform: rotate(0deg);
+    box-shadow: 5px -10px 10px 7px red;
+}
+.main{
+    height: 35vh;
+    width: 17%;
+    float: left;
+    position: relative;
+    margin-left: 80px;
+    box-shadow: 4px -7px 9px 7px rgba(0, 0, 0, 0.571);
+    transition-duration: 1.5s;
+    margin-top: -90px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+.main:hover{
+    box-shadow: 4px -8px 9px 7px red;
+}
+.g1:hover{
+    transform: scale(1.2);
+}
+.g2:hover{
+    transform: scale(0.8);
+}
+.g3{
+    transform: scale(0.8);
+}
+.g3:hover{
+    transform: scale(1);
+}
+.g4{
+    transform: scale(1.19);
+}
+.g4:hover{
+    transform: scale(1);
+}
+
+
+.h{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    padding: 1px ;
+    box-sizing: border-box;
+
+}
+.p{
+    height: 35vh;
+    width: 17%;
+    position: relative;
+    top: -200px;
+    left: 40px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 4px -8px 9px 7px rgba(0, 0, 0, 0.591);
+    transition-duration: 1.5s;
+}
+.p:hover{
+    box-shadow: 4px -8px 9px 7px rgba(0, 0, 255, 0.806);
+
+}
+.j1:hover{
+     transform: skew(-10deg);
+}
+.j2{
+    transform: skew(-10deg);
+}
+.j2:hover{
+    transform: skewY(10deg);
+}
+.j3{
+    transform: scaleY(0.6);
+}
+.j3:hover{
+    transform: scaleY(1);
+}
+.j4{
+    transform: scaleX(0.6);
+}
+.j4:hover{
+    transform: scaleX(1);
+}
+.j5:hover{
+    transform: rotate(50deg);
+}
+.j6:hover{
+    transform: rotate(-50deg);
+}
+.j7:hover{
+    transform: scale(0.8);
+}
+.j8{
+    transform: scale(1.2);
+}
+.j8:hover{
+    transform: scale(1);
+}
+.h1{
+    clear: both;
+    margin-top: 950px;
+    text-align: center;
+    font-size: 45px;
+}
